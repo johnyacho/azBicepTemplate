@@ -1,3 +1,5 @@
+
+//les parametres
 param staorageAccountName string = 'toylaunchj${uniqueString(resourceGroup().id)}'
 param appServiceAppName string = 'toyproductj${uniqueString(resourceGroup().id)}'
 param location string = 'westus3' //resourceGroup().location
